@@ -1,0 +1,76 @@
+{
+  "_format": "hh-zkit-artifacts-1",
+  "circuitTemplateName": "SMTNonMembership",
+  "circuitFileName": "smt_non_membership",
+  "circuitSourceName": "circuits/smt_non_membership.circom",
+  "baseCircuitInfo": {
+    "constraintsNumber": 7598,
+    "signals": [
+      {
+        "name": "root",
+        "dimension": [],
+        "type": "Input",
+        "visibility": "Public"
+      },
+      {
+        "name": "siblings",
+        "dimension": [
+          10
+        ],
+        "type": "Input",
+        "visibility": "Private"
+      },
+      {
+        "name": "oldKey",
+        "dimension": [],
+        "type": "Input",
+        "visibility": "Private"
+      },
+      {
+        "name": "oldValue",
+        "dimension": [],
+        "type": "Input",
+        "visibility": "Private"
+      },
+      {
+        "name": "isOld0",
+        "dimension": [],
+        "type": "Input",
+        "visibility": "Private"
+      },
+      {
+        "name": "key",
+        "dimension": [],
+        "type": "Input",
+        "visibility": "Private"
+      }
+    ],
+    "parameters": {
+      "nLevels": {
+        "__bigintval__": "10"
+      }
+    }
+  },
+  "compilerOutputFiles": {
+    "r1cs": {
+      "fileSourcePath": "/home/shehs/working_dir/zk_composite_testing/zkit/artifacts/circuits/smt_non_membership.circom/SMTNonMembership.r1cs",
+      "fileHash": "b6029b08776f044df99b919f6f1be1decc3b62c3"
+    },
+    "wasm": {
+      "fileSourcePath": "/home/shehs/working_dir/zk_composite_testing/zkit/artifacts/circuits/smt_non_membership.circom/SMTNonMembership_js/SMTNonMembership.wasm",
+      "fileHash": "202018f4f002ebe9eb25e4d0a52e71720b292d16"
+    },
+    "sym": {
+      "fileSourcePath": "/home/shehs/working_dir/zk_composite_testing/zkit/artifacts/circuits/smt_non_membership.circom/SMTNonMembership.sym",
+      "fileHash": "5047fa4648af9f6ba95e42bbeb875d4414e10078"
+    },
+    "groth16.zkey": {
+      "fileSourcePath": "/home/shehs/working_dir/zk_composite_testing/zkit/artifacts/circuits/smt_non_membership.circom/SMTNonMembership.groth16.zkey",
+      "fileHash": "5a6dce59c7135aa47fde2402126402fc523f91aa"
+    },
+    "groth16.vkey": {
+      "fileSourcePath": "/home/shehs/working_dir/zk_composite_testing/zkit/artifacts/circuits/smt_non_membership.circom/SMTNonMembership.groth16.vkey.json",
+      "fileHash": "1f67cd9268c9bc2dc0b4886ba05321f1de3053df"
+    }
+  }
+}
